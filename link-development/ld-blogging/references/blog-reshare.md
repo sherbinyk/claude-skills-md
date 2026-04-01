@@ -5,8 +5,6 @@ This file covers everything needed to find and reshare third-party blog posts on
 - **Mode A — Article provided**: Khaled gives a URL or pastes article text. Read it, understand it, write captions.
 - **Mode B — Find an article**: Khaled asks you to find something to reshare. Search the approved sources, recommend candidates, then write captions once one is selected.
 
-In both modes, suggest related articles Khaled might want to reshare in the future.
-
 ---
 
 ## About Link Development
@@ -102,6 +100,12 @@ Keep it to **2–3 short paragraphs**. Do not include the article URL in the cap
 
 ---
 
+## Punctuation Rule
+
+Do NOT use em dashes (—) anywhere in captions. Rewrite sentences to avoid them entirely. Use a period, a comma, or restructure the sentence instead.
+
+---
+
 ## Output Format
 
 Always present your output in this exact structure:
@@ -123,16 +127,6 @@ Always present your output in this exact structure:
 **Facebook Caption:**
 
 [caption text]
-
----
-
-**Related reads to consider:**
-- [Title] — [Source] | [URL] — *[1-line reason it's relevant]*
-- [Title] — [Source] | [URL] — *[1-line reason it's relevant]*
-
----
-
-The "Related reads" section is your opportunity to be proactive — surface other recent articles from the approved list that Khaled might not have seen but would likely find useful for future posts.
 
 ---
 

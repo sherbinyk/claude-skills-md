@@ -32,10 +32,11 @@ Covers ad copy, social media, email, blogs, and website content — in English a
 
 1. **Identify content type and platform** from the user's request
 2. **Select brand voice and audience** — read reference files and match to context
-3. **Gather missing context** — ask ONE targeted question if critical info is missing
-4. **Apply the platform-specific framework** for tone, length, and format
-5. **Write the content** with variations where useful
-6. **Deliver in the requested format** (chat, Word doc, Excel content calendar, etc.)
+3. **Apply content strategy** — if planning multiple posts or a calendar, read `references/content-strategy.md` to apply the correct content mix (Educational / Informational / Entertaining / Persuasive)
+4. **Gather missing context** — ask ONE targeted question if critical info is missing
+5. **Apply the platform-specific framework** for tone, length, and format
+6. **Write the content** with variations where useful
+7. **Deliver in the requested format** (chat, Word doc, Excel content calendar, etc.)
 
 ---
 
@@ -46,6 +47,7 @@ Before writing, read the reference files and apply the right voice and audience 
 - **Brand voices** → `references/brand-voices.md`
 - **Audience profiles** → `references/audiences.md`
 - **Products & services** → `/sessions/fervent-practical-goldberg/mnt/Link Development/products.md`
+- **Content strategy & post type mix** → `references/content-strategy.md` (read when planning a content calendar, recommending post types, or when the user asks what kind of content to make)
 
 > **Product rule:** If the user mentions any Link Development product by name (CountBig, Project360, Strategy360, ServeBig, TeamBeats, PatientFirst, Globby, SellBig, ServeStream, Digital Courts, Retail Hub, CitizenEver, EventEX, InspAction, Meeting360, VisitStream, Survey Management, On-Prem Connector, Open for Investments), read `products.md` immediately to get the correct tagline, description, target audience, and messaging angle before writing anything. Never guess product descriptions — always read the reference first.
 
@@ -160,6 +162,8 @@ Descriptions (90 chars max each):
 ---
 
 ### 2.2 Social Media Content
+
+> **Content mix:** When writing more than one post or planning a content calendar, read `references/content-strategy.md` for the recommended content type distribution (80/20 rule, four categories, format-to-platform mapping). Label each post with its content category: Educational, Informational, Entertaining, or Persuasive/Conversion.
 
 #### Instagram
 

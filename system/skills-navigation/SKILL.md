@@ -1,5 +1,5 @@
 ---
-name: Skills Navigation
+name: skills-navigation
 description: >
   Master navigation map for all available skills and reference files. Read this first before
   loading any other skill. Use it to locate the correct SKILL.md or reference file without
@@ -21,11 +21,11 @@ Skills for Khaled's main company — B2B technology, lead generation focus.
 
 | Skill | SKILL.md | Reference Files | Use For |
 |---|---|---|---|
-| content-creator | `.claude/skills/content-creator/SKILL.md` | `references/audiences.md`, `references/brand-voices.md`, `references/email-ready-format.md` + `products.md` / `services.md` from LD project folder | Social posts, ad copy, emails, blog content for LD |
-| blogging | `.claude/skills/blogging/SKILL.md` | `references/article-research.md`, `references/human-like-writing.md`, `references/blog-reshare.md` | Blog articles, article ideas, LinkedIn reshares |
-| seo-analyst | `.claude/skills/seo-analyst/SKILL.md` | `references/column-maps.md` + `semrush-mcp.md` from LD project folder | SEO analysis, keyword research, GSC/Ahrefs/SEMrush reports |
-| performance-analysis-ld | `.claude/skills/performance-analysis-ld/SKILL.md` | `references/ld-analysis-templates.md` | Lead gen campaign analysis — LinkedIn, Google, Meta, X |
-| ads-copy-ld | `.claude/skills/ads-copy-ld/SKILL.md` | — | B2B English ad copy — LinkedIn Ads, Google Search RSA |
+| ld-content-creator | `.claude/skills/ld-content-creator/SKILL.md` | `references/audiences.md`, `references/brand-voices.md`, `references/email-ready-format.md` + `products.md` / `services.md` from LD project folder | Social posts, ad copy, emails, blog content for LD |
+| ld-blogging | `.claude/skills/ld-blogging/SKILL.md` | `references/article-research.md`, `references/human-like-writing.md`, `references/blog-reshare.md` | Blog articles, article ideas, LinkedIn reshares |
+| ld-seo | `.claude/skills/ld-seo/SKILL.md` | `references/column-maps.md` + `semrush-mcp.md` from LD project folder | SEO analysis, keyword research, GSC/Ahrefs/SEMrush reports |
+| ld-performance-analysis | `.claude/skills/ld-performance-analysis/SKILL.md` | `references/ld-analysis-templates.md` | Lead gen campaign analysis — LinkedIn, Google, Meta, X |
+| ld-ads-copy | `.claude/skills/ld-ads-copy/SKILL.md` | — | B2B English ad copy — LinkedIn Ads, Google Search RSA |
 
 ---
 
@@ -35,8 +35,8 @@ Skills for Qormuz — fashion e-commerce, Saudi Arabia.
 
 | Skill | SKILL.md | Reference Files | Use For |
 |---|---|---|---|
-| performance-analysis | `.claude/skills/performance-analysis/SKILL.md` | `references/platform-column-maps.md`, `references/Analysis templates.md` | E-commerce campaign analysis — Meta, Google, Snapchat |
-| google-ads-content-ar | `.claude/skills/google-ads-content-ar/SKILL.md` | — | Arabic Google Ads copy — RSA, PMax, Display, Shopping |
+| qormuz-performance-analysis | `.claude/skills/qormuz-performance-analysis/SKILL.md` | `references/platform-column-maps.md`, `references/Analysis templates.md` | E-commerce campaign analysis — Meta, Google, Snapchat |
+| qormuz-ads-copy-ar | `.claude/skills/qormuz-ads-copy-ar/SKILL.md` | — | Arabic Google Ads copy — RSA, PMax, Display, Shopping |
 
 ---
 
@@ -46,7 +46,17 @@ Skills for Flamingo — cosmetics e-commerce, Egypt.
 
 | Skill | SKILL.md | Reference Files | Use For |
 |---|---|---|---|
-| performance-analysis-flamingo | `.claude/skills/performance-analysis-flamingo/SKILL.md` | `references/flamingo-templates.md` | E-commerce campaign analysis — Meta, TikTok, Google (EGP, Arabic default) |
+| flamingo-performance-analysis | `.claude/skills/flamingo-performance-analysis/SKILL.md` | `references/flamingo-templates.md` | E-commerce campaign analysis — Meta, TikTok, Google (EGP, Arabic default) |
+
+---
+
+## Cross-Client Skills
+
+Skills that work across all clients — not tied to a single brand.
+
+| Skill | SKILL.md | Reference Files | Use For |
+|---|---|---|---|
+| social-analysis | `.claude/skills/social-analysis/SKILL.md` | `references/platform-column-maps.md`, `references/analysis-output-template.md` | Organic social media performance — Facebook, Instagram, LinkedIn, TikTok, Snapchat, Threads, X (native analytics exports, NOT Ads Manager) |
 
 ---
 
@@ -79,14 +89,15 @@ Skills that operate on the skill system itself — not client-facing.
 
 | If the task involves... | Use this skill |
 |---|---|
-| LinkedIn or Google campaign analysis for Link Development | `performance-analysis-ld` |
-| LinkedIn or Google ad copy (English, B2B) | `ads-copy-ld` |
-| Arabic Google Ads copy (any client) | `google-ads-content-ar` |
-| Meta / Google / Snapchat analysis for Qormuz | `performance-analysis` |
-| Meta / TikTok / Google analysis for Flamingo | `performance-analysis-flamingo` |
-| Blog post, article, or LinkedIn reshare for LD | `blogging` |
-| Social post, email, or ad copy for LD | `content-creator` |
-| SEO report, keyword research | `seo-analyst` |
+| LinkedIn or Google campaign analysis for Link Development | `ld-performance-analysis` |
+| LinkedIn or Google ad copy (English, B2B) | `ld-ads-copy` |
+| Arabic Google Ads copy (any client) | `qormuz-ads-copy-ar` |
+| Meta / Google / Snapchat analysis for Qormuz | `qormuz-performance-analysis` |
+| Meta / TikTok / Google analysis for Flamingo | `flamingo-performance-analysis` |
+| Organic social media analytics (any client, native exports) | `social-analysis` |
+| Blog post, article, or LinkedIn reshare for LD | `ld-blogging` |
+| Social post, email, or ad copy for LD | `ld-content-creator` |
+| SEO report, keyword research | `ld-seo` |
 | Word document | `docx` |
 | Excel spreadsheet | `xlsx` |
 | PowerPoint presentation | `pptx` |
